@@ -372,28 +372,6 @@ footer{
   color:#de5879;
 }
 
-@media screen and (max-width:576px){
-  .service .row .p_title{
-    padding-bottom:40px;
-  }
-  .service .row .service_img{
-    padding-top:40px;
-  }
-header {
-  width:100%;
-  margin:0 auto;
-  overflow:hidden;
-}
-
-}
-@media screen and (min-width:576px){
-  .service .row .p_title{
-    padding-bottom:40px;
-  }
-  .service .row .service_img{
-    padding-top:40px;
-  }
-}
 
 /* pages  */
 .dropdown-item.active{
@@ -591,7 +569,7 @@ position:relative;
 }
 
  .banner {
-  background: url(./../img/about.jpg);
+  background: url(./../img/banner.jpg);
   height:100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -603,7 +581,7 @@ position:relative;
 
 .banner::before{
   content:'';
-  background-color:rgba(255, 255, 255, 0.831);
+  background-color:rgba(255, 255, 255, 0.904);
   position: absolute;
   top:0;
   left:0;
@@ -985,4 +963,27 @@ opacity: 1;
 
 .touch .content_item:hover{
   transform: translateY(-10px);
+}
+
+@media screen and (max-width:576px){
+  .service .row .p_title{
+    padding-bottom:40px;
+  }
+  .service .row .service_img{
+    padding-top:40px;
+  }
+header {
+  width:100%;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+}
+@media screen and (min-width:576px){
+  .service .row .p_title{
+    padding-bottom:40px;
+  }
+  .service .row .service_img{
+    padding-top:40px;
+  }
 }
