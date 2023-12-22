@@ -891,7 +891,7 @@ height:100%;
 .carousel-inner .item_left {
   background-color: white;
   padding:30px;
-  height:100%;
+ 
 }
 
 
@@ -938,7 +938,7 @@ opacity: 1;
   background-color: white;
   position:absolute;
   top:0;
-  right:50px;
+  right:80px;
 }
 .message .message_content{
   position:relative;
@@ -966,12 +966,53 @@ opacity: 1;
 }
 
 @media screen and (max-width:576px){
+  .message{
+    padding-bottom:700px;
+  }
+  .message .message_content .content_right{
+    position: absolute;
+    top:600px!important;
+  }
+  .people .item_left{
+    margin: 40px 0;
+  }
+  .project  .tab-pane .content  img{
+    margin-bottom:20px;
+  }
+  .project .tab-content{
+    padding:0 ;
+    text-align: center;
+  }
+  .project  .tab-pane .content button{
+   margin:20px 0;
+  }
+  .alway .alway_content{
+    width:100% !important;
+  }
+  .number .content_item{
+   margin:20px 0;
+  }
+  .general .content_left{
+    margin-bottom:40px;
+  }
   .service .row .p_title{
     padding-bottom:40px;
+    /* padding-left:20px; */
   }
   .service .row .service_img{
     padding-top:40px;
+    padding-left:20px;
   }
+  .bussiness .buss_img{
+    text-align: center;
+    padding:30px 0;
+  }
+  .bussiness .buss_img img{
+    width:50%;
+    height:50%;
+    
+  }
+ 
 header {
   width:100%;
   margin:0 auto;
@@ -980,10 +1021,74 @@ header {
 
 }
 @media screen and (min-width:576px){
+
+
+  .people .item_left{
+    margin: 40px 0;
+  
+  }
+  .project  .tab-pane .content  img{
+    margin-bottom:20px;
+  }
+  .project .tab-content{
+    padding:0 ;
+    text-align: center;
+  }
+  .project  .tab-pane .content button{
+    margin:20px 0;
+  }
+  .alway .alway_content{
+    width:100% !important;
+  }
+  .number .content_item{
+   margin:20px 0;
+  }
+  .general .content_left{
+    margin-bottom:40px;
+  }
   .service .row .p_title{
     padding-bottom:40px;
+    /* padding-left:20px; */
   }
   .service .row .service_img{
     padding-top:40px;
+    padding-left:20px;
+  }
+  .bussiness .buss_img{
+    text-align: center;
+    padding:30px 0;
+  }
+  .bussiness .buss_img img{
+    width:50%;
+    height:50%;
+    
+  }
+ 
+header {
+  width:100%;
+  margin:0 auto;
+  overflow:hidden;
+}
+}
+
+@media screen and (min-width:768px){
+  .people .item_left .left_img img{
+    width:70% !important;
+  }
+  
+}
+@media screen and (min-width:992px){
+  .people .item_left .left_img img{
+    width:120% !important;
+  }
+}
+@media screen and (min-width:1200px){
+  .people .item_left .left_img img{
+    width:100% !important;
+  }
+}
+@media screen and (min-width:1400px){
+  .people .item_left .left_img img{
+    width:80% !important;
   }
 }
